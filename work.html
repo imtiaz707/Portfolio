@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work · Imtiaz Hossain</title>
+  <meta name="description" content="Data tools, dashboards and analytics projects by Imtiaz Hossain.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script>document.addEventListener('error',function(e){if(e.target.tagName==='IMG')e.target.classList.add('missing')},true)</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <button class="theme-toggle" type="button" aria-label="Switch to light mode">
+    <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+  </button>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-name" href="index.html">Imtiaz Hossain</a>
+      <nav aria-label="Main">
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="work.html" aria-current="page">Work</a>
+          <a href="research.html">Research</a>
+          <a href="education.html">Education</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+
+      <!-- Title on the left, counter on the right. To change the number, edit data-value. -->
+      <div class="page-head">
+        <h1 class="page-title">Work</h1>
+        <div class="stat">
+          <p class="stat-title">Data tools I have<br>built at CarryBee</p>
+          <div class="flapboard" data-value="7">7</div>
+        </div>
+      </div>
+
+      <!-- ===== Experience ===== -->
+      <section class="company">
+        <div class="company-head">
+          <!-- Save the CarryBee logo as assets/img/work/carrybee-logo.png -->
+          <div class="media company-logo wide" data-label="CarryBee">
+            <img src="assets/img/work/carrybee-logo.png" alt="CarryBee logo">
+          </div>
+          <div>
+            <h2>CarryBee</h2>
+            <p class="meta">Courier &amp; logistics · Dhaka · May 2026 – Present</p>
+            <p class="company-links"><a href="https://carrybee.com" target="_blank" rel="noopener">Website</a></p>
+          </div>
+        </div>
+
+        <div class="company-desc">
+          <ul class="roles">
+            <li><strong>Junior Data Analyst</strong><span class="meta">Aug 2026 – Present</span></li>
+            <li><strong>Data Intelligence &amp; Research Intern</strong><span class="meta">May 2026 – Jul 2026</span></li>
+          </ul>
+          <p>I joined CarryBee as an intern in the Data Intelligence &amp; Research team and was hired full-time after three months. I build internal tools for the operations, key-account and management teams, and I prepare business reports from accounts data for management.</p>
+          <ul>
+            <li><strong>Data quality.</strong> Traced inflated aging and breach counts to missing end scans and planned timestamps. Export columns that are never filled in are now labelled "not recorded" instead of being reported as false breaches.</li>
+            <li><strong>Test data.</strong> Wrote a seeded Python generator for a reproducible 2,549-parcel test dataset, calibrated to real linehaul times.</li>
+            <li><strong>Reporting.</strong> Deployed analytics dashboards on Render and launched a central system for managing reports across departments.</li>
+          </ul>
+        </div>
+
+        <!-- Photo slider: save photos as carrybee-1.jpg, carrybee-2.jpg in assets/img/work/ and edit each caption.
+             The slider stays hidden until at least one photo exists. Delete a <figure> to remove a slide. -->
+        <div class="photo-slider" data-slider>
+          <div class="slides">
+            <figure class="slide">
+              <div class="media"><img src="assets/img/work/carrybee-1.jpg" alt="Imtiaz with colleagues from CarryBee"></div>
+              <figcaption>With colleagues from CarryBee</figcaption>
+            </figure>
+          </div>
+          <button class="slide-btn prev" type="button" aria-label="Previous photo"><svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg></button>
+          <button class="slide-btn next" type="button" aria-label="Next photo"><svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></button>
+          <div class="slide-dots"></div>
+        </div>
+      </section>
+
+      <hr class="rule">
+
+      <!-- ===== Selected projects =====
+           Internal CarryBee tools show an "Internal tool" panel instead of a screenshot, so no company data is published.
+           Public projects use a screenshot from assets/img/projects/. Delete a whole <article> to remove a project. -->
+      <section class="work-section" aria-labelledby="projects">
+        <div class="section-head">
+          <h2 id="projects">Selected Projects</h2>
+          <div class="carousel-controls">
+            <button class="carousel-btn" type="button" data-dir="-1" aria-label="Previous projects"><svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 3L5 8l5 5"/></svg></button>
+            <button class="carousel-btn" type="button" data-dir="1" aria-label="Next projects"><svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3l5 5-5 5"/></svg></button>
+          </div>
+        </div>
+
+        <div class="projects carousel" data-autoplay="3500" tabindex="0" aria-label="Selected projects">
+
+          <article class="project">
+            <div class="media project-media internal"><div class="internal-panel"><span>Internal tool</span></div></div>
+            <div class="project-body">
+              <p class="project-client">CarryBee</p>
+              <h3>Delivery SLA Engine</h3>
+              <p class="meta">Python · SQL</p>
+              <p class="project-desc">Models 9 parcel-journey stages, from pickup to invoicing, against a hub-level SLA matrix and flags live breaches by region, cluster and hub.</p>
+              <p class="project-metric"><strong>47,052 rows</strong> from 220 hubs used for validation</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media project-media internal"><div class="internal-panel"><span>Internal tool</span></div></div>
+            <div class="project-body">
+              <p class="project-client">CarryBee</p>
+              <h3>KAM Performance CRM</h3>
+              <p class="meta">Google Apps Script · Google Sheets · JavaScript</p>
+              <p class="project-desc">Tracks daily key-account and merchant KPIs, with role-based access for admins, leads, KAMs, operations, hubs and heads.</p>
+              <p class="project-metric"><strong>8 views</strong> across 6 user roles</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media project-media internal"><div class="internal-panel"><span>Internal tool</span></div></div>
+            <div class="project-body">
+              <p class="project-client">CarryBee</p>
+              <h3>TQM Issue-Resolution App</h3>
+              <p class="meta">Google Apps Script</p>
+              <p class="project-desc">Moves unresolved delivery issues up a 3-layer chain (hub → operations → management) automatically, with KAM approve/redo, file attachments and an append-only audit trail.</p>
+              <p class="project-metric"><strong>2 hours</strong> before an open issue escalates</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <!-- Save a screenshot as assets/img/projects/merchant-dashboard.jpg -->
+            <div class="media project-media" data-label="Merchant Analytics Dashboard"><img src="assets/img/projects/merchant-dashboard.jpg" alt="Merchant Analytics Dashboard screenshot" loading="lazy"></div>
+            <div class="project-body">
+              <p class="project-client">Personal project</p>
+              <h3>Merchant Analytics Dashboard</h3>
+              <p class="meta">Next.js · React · ECharts · Sheets API · JWT</p>
+              <p class="project-desc">Six pages covering parcel flow, cohorts, aging, reverse journey, financials and alerts. Four teams sign in with JWT, and data loads in one batched Sheets API call behind a 6-hour cache.</p>
+              <p class="project-metric"><strong>8 rule-based alerts</strong>, e.g. order drop and invoice leakage</p>
+              <p class="project-links"><a href="https://imtiaz707.github.io/Top-Merchant-Dashboard-and-Analytics/" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/imtiaz707/Top-Merchant-Dashboard-and-Analytics" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media project-media internal"><div class="internal-panel"><span>Internal tool</span></div></div>
+            <div class="project-body">
+              <p class="project-client">CarryBee</p>
+              <h3>Pickup Monitoring Dashboard</h3>
+              <p class="meta">Google Apps Script</p>
+              <p class="project-desc">Hub-wise, merchant-wise and agent-productivity views. Unique merchants are counted correctly even when pickup time slots overlap.</p>
+              <p class="project-metric"><strong>3 views</strong>: hub, merchant and agent</p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="media project-media internal"><div class="internal-panel"><span>Internal tool</span></div></div>
+            <div class="project-body">
+              <p class="project-client">CarryBee · Internship</p>
+              <h3>Parcel Backlog Monitor</h3>
+              <p class="meta">Python · Streamlit · pandas · Plotly</p>
+              <p class="project-desc">Tracks parcel backlog and zone transfers from live Google Sheets data.</p>
+              <p class="project-links"><a href="https://github.com/imtiaz707/Backlog" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <!-- Save a screenshot as assets/img/projects/customer-behavior.jpg -->
+            <div class="media project-media" data-label="Customer Behavior Analysis"><img src="assets/img/projects/customer-behavior.jpg" alt="Customer Behavior Analysis dashboard" loading="lazy"></div>
+            <div class="project-body">
+              <p class="project-client">Personal project</p>
+              <h3>Customer Behavior Analysis</h3>
+              <p class="meta">Python · SQL · Power BI</p>
+              <p class="project-desc">Cleaned and explored the data in Python, analysed segments, loyalty and purchase drivers in SQL, then built a Power BI dashboard and a stakeholder report with recommendations.</p>
+              <p class="project-links"><a href="https://github.com/imtiaz707/Customer_Behavior_analysis" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <!-- Save a screenshot as assets/img/projects/mobile-sales.jpg -->
+            <div class="media project-media" data-label="Mobile Sales Analytics"><img src="assets/img/projects/mobile-sales.jpg" alt="Mobile Sales Analytics dashboard" loading="lazy"></div>
+            <div class="project-body">
+              <p class="project-client">Personal project</p>
+              <h3>Mobile Sales Analytics</h3>
+              <p class="meta">Power BI</p>
+              <p class="project-desc">Analyses mobile-phone sales by time, city, model and payment method to surface sales trends, customer behaviour and revenue patterns.</p>
+              <p class="project-links"><a href="https://github.com/imtiaz707/Mobile-Sales-Analytics-Dashboard-Power-BI-" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+          <article class="project">
+            <!-- Save a screenshot as assets/img/projects/tableau.jpg -->
+            <div class="media project-media" data-label="Tableau Dashboards"><img src="assets/img/projects/tableau.jpg" alt="Tableau dashboard" loading="lazy"></div>
+            <div class="project-body">
+              <p class="project-client">Personal project</p>
+              <h3>Tableau Dashboards</h3>
+              <p class="meta">Tableau</p>
+              <p class="project-desc">Three dashboards: HR attrition and demographics, used-car price trends with a price forecast, and call-centre volume, sentiment and SLA response times.</p>
+              <p class="project-links"><a href="https://github.com/imtiaz707/Tableau-viz" target="_blank" rel="noopener">GitHub</a></p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span data-year>2026</span> Imtiaz Hossain</span>
+    <nav class="footer-links" aria-label="Contact">
+      <a href="mailto:epty9851@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/imtiaz-hossain-02744a35b" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/imtiaz707" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
